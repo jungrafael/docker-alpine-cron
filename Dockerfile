@@ -1,5 +1,4 @@
 FROM docker:stable
-MAINTAINER d@d.ru
  
 RUN apk update && apk add dcron curl wget rsync ca-certificates && rm -rf /var/cache/apk/*
 
